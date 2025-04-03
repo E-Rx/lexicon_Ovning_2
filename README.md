@@ -22,6 +22,8 @@ I detta alternativ får användaren skriva in en mening. Programmet delar upp me
 
 
 
+---------------------------------------------------------------------------------------------------------------------------
+
 📌 Att förbättra / Implementera 🔧
 
 - **Validering av inmatning:** Se till att programmet inte kraschar vid felaktig inmatning.
