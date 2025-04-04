@@ -18,7 +18,7 @@ public class FindWord
         Console.WriteLine("Invalid input. Please enter a valid sentence.");
     }
 
-    string[] words = sentence.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+    string[] words = sentence?.Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? Array.Empty<string>();
 
     if (words.Length >= 3)
     {
