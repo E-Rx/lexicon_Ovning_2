@@ -39,7 +39,7 @@ internal class Program
           RepeatText.RepeatTextTenTimes();
           break;
         case "3":
-          Console.WriteLine("Find the third word");
+          FindWord.FindThirdWord();
           break;
         default:
           Console.WriteLine("Invalid choice. Please try again.");

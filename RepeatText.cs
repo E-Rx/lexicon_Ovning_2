@@ -18,8 +18,8 @@ public class RepeatText
     // loop to repeat the text ten times
     for (int i = 1; i <= 10; i++)
     {
-        //Console.Write($"{i}. {text}, ");
-        Console.Write($"{text} ");
+      Console.Write($"{i}. {text}, ");
+      //Console.Write($"{text} ");
     }
     Console.WriteLine(" ");
   }
