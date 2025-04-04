@@ -21,7 +21,7 @@ internal class Program
       Console.WriteLine("3. Find the third word");
       Console.WriteLine("0. Exit");
       Console.WriteLine("");
-      Console.WriteLine("Please enter your choice: ");
+      Console.Write("Please enter your choice: ");
 
       string? choice = Console.ReadLine();
       Console.Clear();
